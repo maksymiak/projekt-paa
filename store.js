@@ -28,12 +28,10 @@ const createTask = async (title) => (
     })
   })
 )
-
 module.exports = {
   init,
   createTask
 }
-
 
 const listTasks = async () => (
   new Promise((resolve, reject) => {
@@ -71,7 +69,6 @@ const updateTaskStatus = async (id, status) => (
     })
   })
 )
-
 
 module.exports = {
   init,
